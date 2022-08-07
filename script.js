@@ -1597,7 +1597,7 @@ var bigAllianceCrew =   new Crew('Alliance Shinsekai', [monkeyDLuffy, roronoaZor
                                                         ohmasa, yatappe, ocho, tsunagoro, jo, forcesKozuki, pedro, carrot, wanda, sicilian, concelot, giovanni, milky, lebouc, monji, tristane, variete, rody, blackBack, 
                                                         keith, yomo, marco, yamato, xDrake], 'shinsekai');
 
-var crossGuildCrew =    new Crew('Cross Guild', [baggy, carnage, morge, richy, ladyAlvida, galdino, domoKun, heppoko, kinoko, nnkeKun, peppoko, poppoko, draculeMihawk, crocodile, dazBonez, babe]);
+var crossGuildCrew =    new Crew('Cross Guild', [baggy, carnage, morge, richy, ladyAlvida, galdino, domoKun, heppoko, kinoko, nnkeKun, peppoko, poppoko, draculeMihawk, crocodile, dazBonez, babe], 'baggy');
 
 //####-Batailles-####//
 var godValleyBattle =   [[golDRoger, monkeyDGarp, hotokeSengoku, tsuru, silversRayleigh, scopperGabane, nozdon, sunbell, taro, doringo, petermoo, milletPine, ganryu, cBGalant, donquino, mrMomora, moonIsaacJr, yui, rangram, murgen, maxMarks, spencer, erio, rowing, jacksonbanner, bankuro, yamon, blumarine, crocus],
