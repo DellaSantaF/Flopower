@@ -803,7 +803,7 @@ var killer =                    new Perso('Killer',                     730,    
 var kimel =                     new Perso('Kimel',                      79,     'bb',       79,79,79,79,79,79,79,79,79,79);
 var kinderella =                new Perso('Kinderella',                 1,      'paradise', 1,1,1,1,1,1,1,1,1,1);
 var kinemon =                   new Perso('Kinemon',                    400,    'wano',     400,400,400,400,400,400,400,400,400,400);
-var king =                      new Perso('King',                       1600,   'k',        1600,1600,1600,1600,1600,1600,1600,1600,1600,1600);
+var king =                      new Perso('King',                       1400,   'k',        1400,1400,1400,1400,1400,1400,1400,1400,1400,1400);
 var kinga =                     new Perso('Kinga',                      78,     'bb',       78,78,78,78,78,78,78,78,78,78);
 var kingdew =                   new Perso('Kingdew',                    325,    'bb',       325,325,325,325,325,325,325,325,325,325);
 var kinoko =                    new Perso('Kinoko',                     245,    'baggy',    245,245,245,245,245,245,245,245,245,245);
@@ -826,7 +826,7 @@ var kotori =                    new Perso('Kotori',                     46,     
 var koza =                      new Perso('Koza',                       26,     'paradise', 26,26,26,26,26,26,26,26,26,26);
 var koze =                      new Perso('Koze',                       7,      'eb',       7,7,7,7,7,7,7,7,7,7);
 var kozukiHiyori =              new Perso('Kozuki_Hiyori',              1,      'wano',     1,1,1,1,1,1,1,1,1,1);
-var kozukiMomonosuke =          new Perso('Kozuki_Momonosuke',          2,      'wano',     0,0,0,0,0,1,1,1,1,2);
+var kozukiMomonosuke =          new Perso('Kozuki_Momonosuke',          800,    'wano',     0,0,0,0,0,1,1,1,1,800);
 var kozukiOden =                new Perso('Kozuki_Oden',                3500,   'wano',     3500,0,0,0,0,0,0,0,0,0);
 var kozukiSukiyaki =            new Perso('Kozuki_Sukiyaki',            489,    'wano',     489,0,0,0,0,0,0,0,0,0);
 var kozukiToki =                new Perso('Kozuki_Toki',                2,      'wano',     2,2,2,2,2,2,2,2,2,2);
@@ -1481,7 +1481,7 @@ var forcesPacifista =   {name: 'Pacifistas',                        power: [2000
 var forcesYontaMaria =  {name: 'Flotte Yonta Maria',                power: [1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000]};
 
 //####-Equipages-####//
-var mugiwaraCrew =      new Crew('Chapeaux de Pailles', [monkeyDLuffy, roronoaZoro, nami, usopp, vinsmokeSanji, tonytonyChopper, nicoRobin, franky, brook, jinbe], 'cp');
+var mugiwaraCrew =      new Crew('Chapeaux de Pailles', [monkeyDLuffy, roronoaZoro, nami, usopp, vinsmokeSanji, tonytonyChopper, nicoRobin, franky, brook, jinbe, yamato], 'cp');
 
 var rogerCrew =         new Crew('Équipage de Roger', [golDRoger, silversRayleigh, scopperGabane, kozukiOden, kozukiToki, shanks, baggy, nozdon, sunbell, taro, doringo, petermoo, milletPine, ganryu, cBGalant, donquino, mrMomora, moonIsaacJr, yui, rangram, murgen, maxMarks, spencer, erio, rowing, jacksonbanner, bankuro, yamon, blumarine, nekomamushi, inuarashi, portgasDRouge], 'roger');
 
@@ -1520,7 +1520,7 @@ var doflamingoCrew =    new Crew('Don Quichotte Family', [donQuichotteDoflamingo
 
 var caponeCrew =        new Crew('Équipage du Firetank', [caponeGangBege, vito, gotti, charlotteChiffon, charlotteLaura, caponePets], 'supernova');
 
-var mugiwaraLargeCrew = new Crew('Armada Chapeau de Paille', [monkeyDLuffy, roronoaZoro, nami, usopp, vinsmokeSanji, tonytonyChopper, nicoRobin, franky, brook, jinbe, cavendish, suleiman, bartolomeo, gambia, donSai, donChinjao, boo, baby5, ideo, blueGilly, abdullah, jeet, leo, wicka, kabu, bomba, rampo, flapper, bobomba, nubon, pellini, inhel, cotton, baxcon, daikon, beeAnne, chao, hajrudin, stansen, road, goldberg, gerd, orlombus, colombus, forcesACP, forcesYontaMaria], 'acp');
+var mugiwaraLargeCrew = new Crew('Armada Chapeau de Paille', [monkeyDLuffy, roronoaZoro, nami, usopp, vinsmokeSanji, tonytonyChopper, nicoRobin, franky, brook, jinbe, yamato, cavendish, suleiman, bartolomeo, gambia, donSai, donChinjao, boo, baby5, ideo, blueGilly, abdullah, jeet, leo, wicka, kabu, bomba, rampo, flapper, bobomba, nubon, pellini, inhel, cotton, baxcon, daikon, beeAnne, chao, hajrudin, stansen, road, goldberg, gerd, orlombus, colombus, forcesACP, forcesYontaMaria], 'acp');
 
 var GermaCrew =         new Crew('Armée du Germa 66', [vinsmokeJudge, vinsmokeReiju, vinsmokeIchiji, vinsmokeNiji, vinsmokeYonji, forcesGerma], 'germa');
 
@@ -1596,6 +1596,8 @@ var bigAllianceCrew =   new Crew('Alliance Shinsekai', [monkeyDLuffy, roronoaZor
                                                         ikkaku, clione, uni, kinemon, denjiro, inuarashi, nekomamushi, yokozunaKawamatsu, ashuraDoji, raizo, kanjuro, kikunojo, kozukiMomonosuke, izou, shinobu, hyogoro, 
                                                         ohmasa, yatappe, ocho, tsunagoro, jo, forcesKozuki, pedro, carrot, wanda, sicilian, concelot, giovanni, milky, lebouc, monji, tristane, variete, rody, blackBack, 
                                                         keith, yomo, marco, yamato, xDrake], 'shinsekai');
+
+var crossGuildCrew =    new Crew('Cross Guild', [baggy, carnage, morge, richy, ladyAlvida, galdino, domoKun, heppoko, kinoko, nnkeKun, peppoko, poppoko, draculeMihawk, crocodile, dazBonez, babe]);
 
 //####-Batailles-####//
 var godValleyBattle =   [[golDRoger, monkeyDGarp, hotokeSengoku, tsuru, silversRayleigh, scopperGabane, nozdon, sunbell, taro, doringo, petermoo, milletPine, ganryu, cBGalant, donquino, mrMomora, moonIsaacJr, yui, rangram, murgen, maxMarks, spencer, erio, rowing, jacksonbanner, bankuro, yamon, blumarine, crocus],
@@ -1697,7 +1699,7 @@ var wholeCakeBattle =   [[monkeyDLuffy, vinsmokeSanji, brook, jinbe, tonytonyCho
 
 var onigashimaBattle =  [[monkeyDLuffy, roronoaZoro, vinsmokeSanji, franky, nicoRobin, brook, tonytonyChopper, nami, usopp, jinbe, trafalgarDWaterLaw, eustassKidd, killer, xDrake, yamato, ashuraDoji, denjiro, kinemon, yokozunaKawamatsu, nekomamushi, inuarashi, raizo, kikunojo, izou, marco, sicilian, giovanni, concelot, carrot, wanda, rody, blackBack, caribou, kozukiMomonosuke, shinobu, hyogoro, ohmasa, tsunagoro, ocho, yatappe, tama, forcesKozuki],
                         [kaido, king, queen, jack, whosWho, pageOne, sasaki, blackMaria, ulti, kanjuro, babanuki, solitaire, daifugo, fourTricks, hamlet, poker, mizerka, basilHawkins, scratchmenApoo, number1, number2, number3, number4, number5, number7, number8, number10, forcesKaido, charlotteLinlin, charlottePerospero, charlotteSmoothie, kurozumiOrochi],
-                        []];
+                        [ryokugyu]];
 
 
 //JJJJJJJJJ-JoJo-JJJJJJJJJJ//
