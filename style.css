@@ -1,0 +1,399 @@
+body
+{
+    background-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    marker: none;
+}
+
+img
+{
+    max-width: 500px;
+    min-width: 400px;
+}
+
+li
+{
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 3px;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 3px;
+    padding: 2px;
+    width: fit-content;
+}
+
+ul
+{
+    background-color: maroon;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+select
+{
+    background-color: gold;
+    border-radius: 2px;
+    scrollbar-width: 12px;
+    scrollbar-color: grey darkgrey;
+}
+
+/*Barre*/
+
+::-webkit-scrollbar
+{
+    background: darkgrey;
+    border-radius: 4px;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: grey;
+    border-radius: 6px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background: rgb(70, 70, 70);
+    border-radius: 6px;
+    width: 8px;
+}
+
+
+/*IDs*/
+
+#choix
+{
+    background-color: cyan;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    position: fixed;
+    left: 70%;
+    max-height: 96%;
+    overflow-y: scroll;
+}
+
+#classementC
+{
+    position: fixed;
+    left: 50%;
+    max-height: 99%;
+    overflow-y: scroll;
+}
+
+#classementP, #classementPJ
+{
+    position: fixed;
+    left: 10%;
+    width: fit-content;
+    max-height: 99%;
+    overflow-y: scroll;
+}
+
+#image, #imageJ
+{
+    position: fixed;
+    left: 27%;
+}
+
+#interface
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#persosBattle
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+/*Classes*/
+
+.acp
+{
+    background-image: url('../Logo/cp.png');
+    background-position: 12px -50px;
+    background-repeat: no-repeat;
+    background-size: 215px 170px;
+}
+
+.amazon
+{
+    background-color: black;
+    background-image: url('../Logo/amazon.png');
+    background-position: 0px -70px;
+    background-repeat: no-repeat;
+    background-size: 260px 170px;
+}
+
+.baggy
+{
+    background-color: black;
+    background-image: url('../Logo/baggy.png');
+    background-position: 80px 0px;
+    background-repeat: no-repeat;
+    background-size: 90px 70px;
+}
+
+.bb
+{
+    background-color: white;
+    background-image: url('../Logo/bb.png');
+    background-position: 17px -60px;
+    background-repeat: no-repeat;
+    background-size: 230px 190px;
+}
+
+.bm
+{
+    background-color: purple;
+    background-image: url('../Logo/bm.png');
+    background-position: 10px -50px;
+    background-repeat: no-repeat;
+    background-size: 230px 150px;
+}
+
+.bn
+{
+    background-color: black;
+    background-image: url('../Logo/bn.png');
+    background-position: 10px -50px;
+    background-repeat: no-repeat;
+    background-size: 230px 150px;
+}
+
+.bw
+{
+    background-color: black;
+    background-image: url('../Logo/bw.png');
+    background-position: 70px 0px;
+    background-repeat: no-repeat;
+    background-size: 105px 70px;
+}
+
+.ciel
+{
+    background-color: black;
+    background-image: url('../Logo/ciel.png');
+    background-position: 0px -70px;
+    background-repeat: no-repeat;
+    background-size: 260px 170px;
+}
+
+.corsaire
+{
+    background-color: darkgreen;
+    background-image: url('../Logo/corsaire.jpg');
+    background-position: 0px -20px;
+    background-repeat: no-repeat;
+    background-size: 260px 150px;
+}
+
+.cp
+{
+    background-color: black;
+    background-image: url('../Logo/cp.png');
+    background-position: 12px -50px;
+    background-repeat: no-repeat;
+    background-size: 215px 170px;
+}
+
+.dqd
+{
+    background-color: violet;
+    background-image: url('../Logo/dqd.png');
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+}
+
+.eb
+{
+    background-color: black;
+    background-image: url('../Logo/eb.png');
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    background-size: 260px 170px;
+}
+
+.ener
+{
+    background-color: lightblue;
+    background-image: url('../Logo/ener.png');
+    background-position: 5px -10px;
+    background-repeat: no-repeat;
+    background-size: 230px 170px;
+}
+
+.fox
+{
+    background-color: black;
+    background-image: url('../Logo/fox.png');
+    background-position: 0px -30px;
+    background-repeat: no-repeat;
+    background-size: 260px 170px;
+}
+
+.germa
+{
+    background-color: black;
+    background-image: url('../Logo/germa.png');
+    background-position: 70px -15px;
+    background-repeat: no-repeat;
+    background-size: 115px 100px;
+}
+
+.giant
+{
+    background-color: black;
+    background-image: url('../Logo/giant.png');
+    background-position: 60px -5px;
+    background-repeat: no-repeat;
+    background-size: 130px 100px;
+}
+
+.gm
+{
+    background-color: white;
+    background-image: url('../Logo/cipher.jpg');
+    background-position: 80px 0px;
+    background-repeat: no-repeat;
+    background-size: 90px 70px;
+}
+
+.hp
+{
+    background-color: black;
+    background-image: url('../Logo/hp.png');
+    background-position: 75px 3px;
+    background-repeat: no-repeat;
+    background-size: 115px 60px;
+}
+
+.k
+{
+    background-color: black;
+    background-image: url('../Logo/k.png');
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    background-size: 250px 150px;
+}
+
+.marine
+{
+    background-color: white;
+    background-image: url('../Logo/marine.png');
+    background-position: 75px 5px;
+    background-repeat: no-repeat;
+    background-size: 110px 50px;
+}
+
+.moria
+{
+    background-color: black;
+    background-image: url('../Logo/moria.png');
+    background-position: 70px 0px;
+    background-repeat: no-repeat;
+    background-size: 115px 70px;
+}
+
+.paradise
+{
+    background-color: black;
+    background-image: url('../Logo/paradise.png');
+    background-position: 0px -70px;
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+}
+
+.r
+{
+    background-color: rgb(204, 33, 3);
+    background-image: url('../Logo/r.jpg');
+    background-position: 25px -50px;
+    background-repeat: no-repeat;
+    background-size: 200px 120px;
+}
+
+.rocks
+{
+    background-color: grey;
+    background-image: url('../Logo/rocks.jpg');
+    background-position: 0px -60px;
+    background-repeat: no-repeat;
+    background-size: 260px 150px;
+}
+
+.roger
+{
+    background-color: black;
+    background-image: url('../Logo/roger.jpg');
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    background-size: 250px 150px;
+}
+
+.shinsekai
+{
+    background-color: black;
+    background-image: url('../Logo/shinsekai.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 260px 270px;
+}
+
+.sr
+{
+    background-color: tomato;
+    background-image: url('../Logo/sr.png');
+    background-position: 50px -50px;
+    background-repeat: no-repeat;
+    background-size: 160px 120px;
+}
+
+.supernova
+{
+    background-image: url('../Logo/supernova.png');
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    background-size: 260px 130px;
+}
+
+.wano
+{
+    background-color: rgb(1, 46, 1);
+    background-image: url('../Logo/wano.png');
+    background-position: 85px -30px;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+.zo
+{
+    background-color: black;
+    background-image: url('../Logo/zo.png');
+    background-position: 0px -30px;
+    background-repeat: no-repeat;
+    background-size: 260px 190px;
+}
+
+
+.team
+{
+    border-style: solid;
+    border-width: 2px;
+    height: fit-content;
+}
+
+.quadrillage
+{
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
