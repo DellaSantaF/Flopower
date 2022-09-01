@@ -468,7 +468,7 @@ var cosmo =                     new Perso('Cosmo',                      6,      
 var cosmos =                    new Perso('Cosmos',                     21,     'amazon',   21,21,21,21,21,21,21,21,21,21);
 var cotton =                    new Perso('Cotton',                     4,      'acp',      4,4,4,4,4,4,4,4,4,4);
 //CR
-var crocodile =                 new Perso('Crocodile',                  114,     'bw',       86,86,86,86,86,114,114,114,114,114);
+var crocodile =                 new Perso('Crocodile',                  914,     'bw',       86,86,86,86,86,114,114,114,114,914);
 var crocus =                    new Perso('Crocus',                     2,      'roger',    2,2,2,2,2,2,2,2,2,2);
 //CU
 var curiel =                    new Perso('Curiel',                     335,    'bb',       335,335,335,335,335,335,335,335,335,335);
@@ -530,7 +530,7 @@ var doringo =                   new Perso('Doringo',                    200,    
 var dorry =                     new Perso('Dorry',                      110,    'giant',    110,110,110,110,110,110,110,110,110,110);
 var dosun =                     new Perso('Dosun',                      50,     'hp',       2,4,6,8,10,50,0,0,0,0);
 //DR
-var draculeMihawk =             new Perso('Dracule_Mihawk',             2100,   'corsaire', 2100,2100,2100,2100,2100,2100,2100,2100,2100,2100);
+var draculeMihawk =             new Perso('Dracule_Mihawk',             2500,   'corsaire', 2100,2100,2100,2100,2100,2100,2100,2100,2100,2500);
 var draw =                      new Perso('Draw',                       210,    'marine',   210,210,210,210,210,210,210,210,210,210);
 var drHiluluk =                 new Perso('Dr_Hiluluk',                 1,      'paradise', 1,1,1,1,1,1,1,1,1,1);
 var drip =                      new Perso('Drip',                       34,     'paradise', 34,34,34,34,34,34,34,34,34,34);
