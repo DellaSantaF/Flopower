@@ -704,6 +704,7 @@ var ideaman =                   new Perso('Ideaman',                    6,      
 var ideo =                      new Perso('Ideo',                       146,    'acp',      10,15,20,25,30,130,135,140,145,146);
 var igaram =                    new Perso('Igaram',                     17,     'paradise', 17,17,17,17,17,17,17,17,17,17);
 var ikkaku =                    new Perso('Ikkaku',                     40,     'shinsekai', 10,10,10,10,10,40,40,40,40,40);
+var Im =                        new Perso('Im',                         6666,   'marine',   6666,6666,6666,6666,6666,6666,6666,6666,6666,6666);
 var inazuma =                   new Perso('Inazuma',                    58,     'r',        50,50,50,50,50,58,58,58,58,58);
 var indigo =                    new Perso('Indigo',                     134,    'rocks',    134,134,134,134,134,134,134,134,134,134);
 var inhel =                     new Perso('Inhel',                      4,      'acp',      4,4,4,4,4,4,4,4,4,4);
