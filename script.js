@@ -1479,6 +1479,8 @@ var forcesRocks =       {name: 'Membres des Rocks',                 power: [1000
 
 var forcesPacifista =   {name: 'Pacifistas',                        power: [2000,200,400,600,800,2000,2000,2000,2000,2000,2000]};
 
+var forcesSeraphims =   {name:  'Seraphims',                        power:  [7500,0,0,0,0,0,0,0,0,0,7500]};
+
 var forcesYontaMaria =  {name: 'Flotte Yonta Maria',                power: [1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000]};
 
 //####-Equipages-####//
@@ -1505,9 +1507,9 @@ var rocksCrew =         new Crew('Équipage des Rocks', [rocksDXebec, edwardNewg
 
 var revoCrew =          new Crew('Armée Révolutionnaire', [monkeyDDragon, sabo, emporioIvankov, beloBetty, karasu, morley, lindbergh, inazuma, ahiru, koala, bunnyJoe, terryGilteo, forcesRevo], 'r');
 
-var marineCrew =        new Crew('Marine', [sakazukiAkainu, borsalinoKizaru, isshoFujitora, ryokugyu, hotokeSengoku, monkeyDGarp, tsuru, momonga, maynard, komir, doberMan, smoker, strawberry, yamakaji, lacroix, onigumo, johnGiant, ronse, bastille, dalmatien, cancer, mozambia, stainless, draw, moumousagi, tokkikake, nazuKetagari, haguarDSauro, catacombo, kadar, sicily, akehende, hina, brandnew, yarisugi, daigin, puddingPudding,
+var marineCrew =        new Crew('Marine', [Im, sakazukiAkainu, borsalinoKizaru, isshoFujitora, ryokugyu, hotokeSengoku, monkeyDGarp, tsuru, momonga, maynard, komir, doberMan, smoker, strawberry, yamakaji, lacroix, onigumo, johnGiant, ronse, bastille, dalmatien, cancer, mozambia, stainless, draw, moumousagi, tokkikake, nazuKetagari, haguarDSauro, catacombo, kadar, sicily, akehende, hina, brandnew, yarisugi, daigin, puddingPudding,
                          koby, tBone, verygood, shu, sharinguru, nezumi, tashigi, kibin, gorilla, morgan, hermep, donQuichotteRossinante, fullbody, jango, sentomaru, bogard, boomba, bakezo, andre, candre, glove, jero, koda, kyuji, lines, makko, mashikaku, pike, ripper, rokkaku, shine, stalker, forcesMarines, magellan, hannyabal, domino, forcesImpelDown, basilisk, minochihuahua, minokoala, minorhinoceros, minotaurus, minozebra, sadi, sukoshibaKanishitoru, 
-                         ukkari, forcesPacifista, zotto], 'marine');
+                         ukkari, forcesPacifista, forcesSeraphims, zotto], 'marine');
 
 var corsaireCrew =      new Crew('7 Grands Corsaires', [draculeMihawk, donQuichotteDoflamingo, edwardWeeble, boaHancock, baggy, bartholomewKuma, geckoMoria], 'corsaire');
 
