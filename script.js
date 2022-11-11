@@ -1385,7 +1385,13 @@ var vanderDeckenIX =            new Perso('Vander_Decken_IX',           34,     
 var variete =                   new Perso('Variété',                    11,     'zo',       11,11,11,11,11,11,11,11,11,11);
 var vascoShot =                 new Perso('Vasco_Shot',                 303,    'bn',       200,200,200,200,200,303,303,303,303,303);
 //VE
-var vegapunk =                  new Perso('Vegapunk',                   12,     'marine',   12,12,12,12,12,12,12,12,12,12);
+var vegapunk =                  new Perso('Vegapunk',                   12,     'vp',       12,12,12,12,12,12,12,12,12,12);
+var vegapunkShaka =             new Perso('Shaka',                      312,    'vp',       312,312,312,312,312,312,312,312,312,312);
+var vegapunkLilith =            new Perso('Atlas',                      262,    'vp',       262,262,262,262,262,262,262,262,262,262);
+var vegapunkEdison =            new Perso('Edison',                     62,     'vp',       62,62,62,62,62,62,62,62,62,62);
+var vegapunkPythagore =         new Perso('Pythagore',                  162,    'vp',       162,162,162,162,162,162,162,162,162,162);
+var vegapunkAtlas =             new Perso('Atlas',                      212,    'vp',       212,212,212,212,212,212,212,212,212,212);
+var vegapunkYork =              new Perso('York',                       112,    'vp',       112,112,112,112,112,112,112,112,112,112);
 var verygood =                  new Perso('Verygood',                   28,     'marine',   28,28,28,28,28,28,28,28,28,28);
 //VI
 var vinsmokeIchiji =            new Perso('Vinsmoke_Ichiji',            199,    'germa',    199,199,199,199,199,199,199,199,199,199);
