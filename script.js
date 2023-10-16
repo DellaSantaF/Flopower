@@ -1554,9 +1554,13 @@ var rocksCrew =         new Crew('Équipage des Rocks', [rocksDXebec, edwardNewg
 
 var revoCrew =          new Crew('Armée Révolutionnaire', [monkeyDDragon, sabo, emporioIvankov, beloBetty, karasu, morley, lindbergh, inazuma, ahiru, koala, bunnyJoe, terryGilteo, jiron, forcesRevo], 'r');
 
-var marineCrew =        new Crew('Marine', [Im, stEthanbaronVNusjuro, stJaygarciaSaturn, stMarcusMars, stShepherdJuPeter, stTopmanWalcury, figarlandGarling, sakazukiAkainu, borsalinoKizaru, isshoFujitora, ryokugyu, hotokeSengoku, monkeyDGarp, tsuru, momonga, maynard, komir, doberMan, smoker, strawberry, yamakaji, lacroix, onigumo, johnGiant, ronse, bastille, dalmatien, cancer, mozambia, stainless, draw, moumousagi, tokkikake, nazuKetagari, haguarDSauro, catacombo, kadar, sicily, akehende, hina, brandnew, yarisugi, daigin, puddingPudding,
+var gmCrew =            new Crew('Gouvernement mondial', [Im, stEthanbaronVNusjuro, stJaygarciaSaturn, stMarcusMars, stShepherdJuPeter, stTopmanWalcury, figarlandGarling, sakazukiAkainu, borsalinoKizaru, isshoFujitora, ryokugyu, hotokeSengoku, monkeyDGarp, tsuru, momonga, maynard, komir, doberMan, smoker, strawberry, yamakaji, lacroix, onigumo, johnGiant, ronse, bastille, dalmatien, cancer, mozambia, stainless, draw, moumousagi, tokkikake, nazuKetagari, haguarDSauro, catacombo, kadar, sicily, akehende, hina, brandnew, yarisugi, daigin, puddingPudding,
                          koby, tBone, verygood, shu, sharinguru, nezumi, tashigi, kibin, gorilla, bluegrass, ratel, kuroumaTensei, morgan, hermep, donQuichotteRossinante, fullbody, jango, sentomaru, bogard, boomba, bakezo, andre, candre, glove, jero, koda, kyuji, lines, makko, mashikaku, pike, ripper, rokkaku, shine, stalker, forcesMarines, magellan, hannyabal, domino, forcesImpelDown, basilisk, minochihuahua, minokoala, minorhinoceros, minotaurus, minozebra, sadi, sukoshibaKanishitoru, 
-                         ukkari, forcesPacifista, zotto, doll, hibari, princeGruss, sBear, sHawk, sShark, sSnake], 'marine');
+                         ukkari, forcesPacifista, zotto, doll, hibari, princeGruss, sBear, sHawk, sShark, sSnake], 'gm');
+
+var marineCrew =        new Crew('Marine',  [sakazukiAkainu, borsalinoKizaru, isshoFujitora, ryokugyu, hotokeSengoku, monkeyDGarp, tsuru, momonga, maynard, komir, doberMan, smoker, strawberry, yamakaji, lacroix, onigumo, johnGiant, ronse, bastille, dalmatien, cancer, mozambia, stainless, draw, moumousagi, tokkikake, nazuKetagari, haguarDSauro, catacombo, kadar, sicily, akehende, hina, brandnew, yarisugi, daigin, puddingPudding,
+                         koby, tBone, verygood, shu, sharinguru, nezumi, tashigi, kibin, gorilla, bluegrass, ratel, kuroumaTensei, morgan, hermep, donQuichotteRossinante, fullbody, jango, sentomaru, bogard, boomba, bakezo, andre, candre, glove, jero, koda, kyuji, lines, makko, 
+                         mashikaku, pike, ripper, rokkaku, shine, stalker, zotto, doll, hibari, princeGruss, forcesMarines], 'marine');
 
 var corsaireCrew =      new Crew('7 Grands Corsaires', [draculeMihawk, donQuichotteDoflamingo, edwardWeeble, boaHancock, baggy, bartholomewKuma, geckoMoria], 'corsaire');
 
