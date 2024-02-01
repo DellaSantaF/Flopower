@@ -2,7 +2,7 @@
 const classementPHTML = document.getElementById('classementP');
 const classementCHTML = document.getElementById('classementC');
 const imageHTML = document.getElementById('image');
-const fileLocation = '\Users/flori\Desktop\Images\One Piece\Char/';
+const fileLocation = './Char/';
 const charHTML = document.getElementsByTagName('ul');
 const classementPJHTML = document.getElementById('classementPJ');
 const imageJHTML = document.getElementById('imageJ');
@@ -287,7 +287,7 @@ var brandnew =                  new Perso('Brandnew',                   43,     
 var brew =                      new Perso('Brew',                       60,     'bb',       60,60,60,60,60,60,60,60,60,60,60);
 var brisgola =                  new Perso('Brisgola',                   50,     'k',        50,50,50,50,50,50,50,50,50,50,50);
 var brocca =                    new Perso('Brocca',                     43,     'bb',       43,43,43,43,43,43,43,43,43,43,43);
-var broggy =                    new Perso('Broggy',                     110,    'giant',    110,110,110,110,110,110,110,110,110,110,110);
+var broggy =                    new Perso('Broggy',                     1110,   'giant',    1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110);
 var brook =                     new Perso('Brook',                      510,    'cp',       80,80,80,85,90,322,324,326,327,490,510);
 //BU
 var buche =                     new Perso('Buche',                      2,      'bm',       2,2,2,2,2,2,2,2,2,2,2);
@@ -387,7 +387,7 @@ var charlotteKato =             new Perso('Charlotte_Kato',             40,     
 //CH-L
 var charlotteLaura =            new Perso('Charlotte_Laura',            40,     'bm',       40,40,40,40,40,40,40,40,40,40,40);
 var charlotteLaurin =           new Perso('Charlotte_Laurin',           50,     'bm',       50,50,50,50,50,50,50,50,50,50,50);
-var charlotteLinlin =           new Perso('Charlotte_Linlin',           4000,   'bm',       3900,4000,4000,4000,4000,4000,4000,4000,4000,4000,4000);
+var charlotteLinlin =           new Perso('Charlotte_Linlin',           4400,   'bm',       3900,4400,4400,4400,4400,4400,4400,4400,4400,4400,4400);
 //CH-M
 var charlotteMaple =            new Perso('Charlotte_Maple',            30,     'bm',       30,30,30,30,30,30,30,30,30,30,30);
 var charlotteMarble =           new Perso('Charlotte_Marble',           30,     'bm',       30,30,30,30,30,30,30,30,30,30,30);
@@ -534,7 +534,7 @@ var donquino =                  new Perso('Donquino',                   200,    
 var donSai =                    new Perso('Don_Sai',                    155,    'acp',      50,60,70,80,90,120,130,140,145,149,155);
 var doran =                     new Perso('Doran',                      12,     'shinsekai', 12,12,12,12,12,12,12,12,12,12,12);
 var doringo =                   new Perso('Doringo',                    200,    'roger',    200,200,200,200,200,200,200,200,200,200,200);
-var dorry =                     new Perso('Dorry',                      110,    'giant',    110,110,110,110,110,110,110,110,110,110,110);
+var dorry =                     new Perso('Dorry',                      1110,   'giant',    1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110);
 var dosun =                     new Perso('Dosun',                      50,     'hp',       2,4,6,8,10,50,0,0,0,0,0);
 //DR
 var draculeMihawk =             new Perso('Dracule_Mihawk',             2500,   'corsaire', 2100,2100,2100,2100,2100,2100,2100,2100,2100,2500,2500);
@@ -654,7 +654,7 @@ var gyro =                      new Perso('Gyro',                       42,     
 var hack =                      new Perso('Hack',                       90,     'r',        30,30,30,30,30,90,90,90,90,90,90);
 var hack2 =                     new Perso('Hack_',                      1,      'wb',       1,1,1,1,1,1,1,1,1,1,1);
 var haguarDSauro =              new Perso('Haguar_D_Sauro',             202,    'marine',   202,202,202,202,202,202,202,202,202,202,202);
-var hajrudin =                  new Perso('Hajrudin',                   202,    'acp',      50,60,70,80,90,140,202,202,202,202,202);
+var hajrudin =                  new Perso('Hajrudin',                   402,    'acp',      50,60,70,80,90,140,402,402,402,402,402);
 var hamburg =                   new Perso('Hamburg',                    33,     'fox',      33,33,33,33,33,33,33,33,33,33,33);
 var hamBurger =                 new Perso('Ham_Burger',                 1,      'paradise', 1,1,1,1,1,1,1,1,1,1,1);
 var hamlet =                    new Perso('Hamlet',                     50,     'k',        50,50,50,50,50,50,50,50,50,50,50);
@@ -921,7 +921,7 @@ var mariaNapole =               new Perso('Maria_Napole',               1,      
 var marie =                     new Perso('Marie',                      1,      'paradise', 1,1,1,1,1,1,1,1,1,1,1);
 var marilyn =                   new Perso('Marilyn',                    1,      'ciel',     1,1,1,1,1,1,1,1,1,1,1);
 var marin =                     new Perso('Marin',                      2,      'paradise', 2,2,2,2,2,2,2,2,2,2,2);
-var marshallDTeach =            new Perso('Marshall_D_Teach',           4400,   'bn',       500,500,1000,1500,1500,4000,4100,4200,4300,4300,4400);
+var marshallDTeach =            new Perso('Marshall_D_Teach',           4000,   'bn',       500,500,1000,1500,1500,4000,4000,4000,4000,4000,4000);
 var marumieta =                 new Perso('Marumieta',                  1,      'paradise', 1,1,1,1,1,1,1,1,1,1,1);
 var mashikaku =                 new Perso('Mashikaku',                  7,      'marine',   7,7,7,7,7,7,7,7,7,7,7);
 var masira =                    new Perso('Masira',                     32,     'paradise', 32,32,32,32,32,32,32,32,32,32,32);
