@@ -1646,11 +1646,6 @@ var orlombusCrew =      new Crew('Flotte Yonta Maria', [orlombus, colombus, forc
 
 var fourreauxCrew =     new Crew('Fourreaux Rouges', [kinemon, denjiro, inuarashi, nekomamushi, yokozunaKawamatsu, ashuraDoji, raizo, kanjuro, kikunojo], 'wano');
 
-var bigAllianceCrew =   new Crew('Alliance Shinsekai', [monkeyDLuffy, roronoaZoro, vinsmokeSanji, jinbe, nicoRobin, franky, brook, tonytonyChopper, usopp, nami, trafalgarDWaterLaw, bepo, jeanBart, penguin, shachi, 
-                                                        ikkaku, clione, uni, kinemon, denjiro, inuarashi, nekomamushi, yokozunaKawamatsu, ashuraDoji, raizo, kanjuro, kikunojo, kozukiMomonosuke, izou, shinobu, hyogoro, 
-                                                        ohmasa, yatappe, ocho, tsunagoro, jo, forcesKozuki, pedro, carrot, wanda, sicilian, concelot, giovanni, milky, lebouc, monji, tristane, variete, rody, blackBack, 
-                                                        keith, yomo, marco, yamato, xDrake], 'shinsekai');
-
 var crossGuildCrew =    new Crew('Cross Guild', [baggy, carnage, morge, richy, ladyAlvida, galdino, domoKun, heppoko, kinoko, nnkeKun, peppoko, poppoko, draculeMihawk, crocodile, dazBonez, babe], 'baggy');
 
 //####-Batailles-####//
