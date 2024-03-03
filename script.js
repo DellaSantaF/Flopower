@@ -1324,15 +1324,15 @@ var streusen =                  new Perso('Streusen',                   20,     
 var stussy =                    new Perso('Stussy',                     51,     'gm',       20,20,30,30,30,50,50,50,51,51,51);
 //St-
 var stCharlos =                 new Perso('Saint-Charlos',              1,      'gm',       1,1,1,1,1,1,1,1,1,1,1);
-var stEthanbaronVNusjuro =      new Perso('Saint_Ethanbaron_V._Nusjuro',4444,   'gm',       4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444);
+var stEthanbaronVNusjuro =      new Perso('Saint_Ethanbaron_V._Nusjuro',3003,   'gm',       3003,3003,3003,3003,3003,3003,3003,3003,3003,3003,3003);
 var stJalmack =                 new Perso('Saint-Jalmack',              1,      'gm',       1,1,1,1,1,1,1,1,1,1,1);
-var stJaygarciaSaturn =         new Perso('Saint_Jaygarcia_Saturn',     4444,   'gm',       4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444);
-var stMarcusMars =              new Perso('Saint_Marcus_Mars',          4444,   'gm',       4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444);
+var stJaygarciaSaturn =         new Perso('Saint_Jaygarcia_Saturn',     3003,   'gm',       3003,3003,3003,3003,3003,3003,3003,3003,3003,3003,3003);
+var stMarcusMars =              new Perso('Saint_Marcus_Mars',          4444,   'gm',       3003,3003,3003,3003,3003,3003,3003,3003,3003,3003,3003);
 var stPluming =                 new Perso('Saint-Pluming',              1,      'gm',       1,1,1,1,1,1,1,1,1,1,1);
 var stRosward =                 new Perso('Saint-Rosward',              1,      'gm',       1,1,1,1,1,1,1,1,1,1,1);
 var stSharlia =                 new Perso('Sainte-Sharlia',             1,      'gm',       1,1,1,1,1,1,1,1,1,1,1);
-var stShepherdJuPeter =         new Perso('Saint_Shepherd_Ju_Peter',    4444,   'gm',       4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444);
-var stTopmanWalcury =           new Perso('Saint_Topman_Walcury',       4444,   'gm',       4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444);
+var stShepherdJuPeter =         new Perso('Saint_Shepherd_Ju_Peter',    3003,   'gm',       3003,3003,3003,3003,3003,3003,3003,3003,3003,3003,3003);
+var stTopmanWalcury =           new Perso('Saint_Topman_Walcury',       3003,   'gm',       3003,3003,3003,3003,3003,3003,3003,3003,3003,3003,3003);
 //SU
 var sugar =                     new Perso('Sugar',                      2,      'dqd',      2,2,2,2,2,2,2,2,2,2,2);
 var suke =                      new Perso('Suke',                       14,     'wano',     14,14,14,14,14,14,14,14,14,14,14);
