@@ -106,7 +106,8 @@ function implement(list, where) {
 
 //####-Classes-####//
 class Perso {
-    constructor(ref, pow, classHTML, powa/*Alabasta*/,powu/*Skypea*/,powe/*Enies Lobby*/,powt/*Thriller Bark*/,powm/*Marineford*/,powh/*Homme poissons*/,powp/*Punk Hazard*/,powd/*Dressrosa*/,poww/*Wholecake*/,powo/*Onigashima*/,powg/*Egghead*/) {
+    constructor(ref, pow, classHTML, powa/*Alabasta*/,powu/*Skypea*/,powe/*Enies Lobby*/,powt/*Thriller Bark*/,powm/*Marineford*/,
+                    powh/*Homme poissons*/,powp/*Punk Hazard*/,powd/*Dressrosa*/,poww/*Wholecake*/,powo/*Onigashima*/,powg/*Egghead*/) {
         this.name = ref.replace(/_/gi, ' ');
         this.power = [pow, powa, powu, powe, powt, powm, powh, powp, powd, poww, powo];
         this.html = document.createElement('ul');
@@ -182,6 +183,7 @@ var amadob =                    new Perso('Amadob',                     60,     
 var amazon =                    new Perso('Amazon',                     1,      'ciel',     1,1,1,1,1,1,1,1,1,1,1);
 //AN
 var andre =                     new Perso('Andre',                      50,     'bb',       50,50,50,50,50,50,50,50,50,50,50);
+var ange =                      new Perso('Ange',                       11,     'elbaf',    11,11,11,11,11,11,11,11,11,11,11);
 var anjo =                      new Perso('Anjo',                       2,      'eb',       2,2,2,2,2,2,2,2,2,2,2);
 var antonio =                   new Perso('Antonio',                    1,      'paradise', 1,1,1,1,1,1,1,1,1,1,1);
 var anZengaiina =               new Perso('An_Zengaiina',               10,     'paradise', 10,10,10,10,10,10,10,10,10,10,10);
@@ -330,6 +332,8 @@ var chabo =                     new Perso('Chabo',                      1,      
 var chaka =                     new Perso('Chaka',                      25,     'paradise', 25,25,25,25,25,25,25,25,25,25,25);
 var chao =                      new Perso('Chao',                       4,      'acp',      4,4,4,4,4,4,4,4,4,4,4);
 var chappe =                    new Perso('Chappe',                     12,     'shinsekai',12,12,12,12,12,12,12,12,12,12,12);
+//CO
+var colon =                     new Perso('Colon',                      50,     'elbaf',    50,50,50,50,50,50,50,50,50,50,50);
 
 //-Charlotte-//
 //CH-A
@@ -572,7 +576,8 @@ var eustassKidd =               new Perso('Eustass_Kidd',               1850,   
 var farafra =                   new Perso('Farafra',                    13,     'paradise', 13,13,13,13,13,13,13,13,13,13,13);
 var faust =                     new Perso('Faust',                      245,    'paradise', 78,78,78,78,78,245,245,245,245,245,245);
 var fenBock =                   new Perso('Fen_Bock',                   8,      'shinsekai',8,8,8,8,8,8,8,8,8,8,8);
-var figarlandGarling =          new Perso('Figarland_Garling',          2222,   'gm',       2222,2222,2222,2222,2222,2222,2222,2222,2222,2222,2222);
+var figarlandGarling =          new Perso('Figarland_Garling',          3003,   'gm',       2222,2222,2222,2222,2222,2222,2222,2222,2222,2222,3003);
+var figarlandShamerock =        new Perso('Figarland_Shamerock',        2302,   'gm',       2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302);
 var finamore =                  new Perso('Finamore',                   34,     'bb',       34,34,34,34,34,34,34,34,34,34,34);
 var fillonce =                  new Perso('Fillonce',                   1,      'hp',       1,1,1,1,1,1,1,1,1,1,1);
 var fishbonen =                 new Perso('Fishbonen',                  1,      'marine',   1,1,1,1,1,1,1,1,1,1,1);
@@ -642,6 +647,8 @@ var gotti =                     new Perso('Gotti',                      85,     
 var grabar =                    new Perso('Grabar',                     1,      'shinsekai',1,1,1,1,1,1,1,1,1,1,1);
 var gram =                      new Perso('Gram',                       1,      'wb',       1,1,1,1,1,1,1,1,1,1,1);
 var greatMichael =              new Perso('Great_Michael',              97,     'bb',       97,97,97,97,97,97,97,97,97,97,97);
+//GU
+var gunko =                     new Perso('Gunko',                      1902,   'gm',       1902,1902,1902,1902,1902,1902,1902,1902,1902,1902,1902);
 //GY
 var gyaro =                     new Perso('Gyaro',                      9,      'hp',       9,9,9,9,9,9,9,9,9,9,9);
 var gyoro =                     new Perso('Gyoro',                      1,      'moria',    1,1,1,1,1,1,1,1,1,1,1);
@@ -667,6 +674,7 @@ var hanzo =                     new Perso('Hanzo',                      31,     
 var hannyabal =                 new Perso('Hannyabal',                  93,     'marine',   93,93,93,93,93,93,93,93,93,93,93);
 var happaYamao =                new Perso('Happa_Yamao',                1,      'paradise', 1,1,1,1,1,1,1,1,1,1,1);
 var happygun =                  new Perso('Happygun',                   46,     'bb',       46,46,46,46,46,46,46,46,46,46,46);
+var harald =                    new Perso('Harald',                     2222,   'elbaf',    2222,2222,2222,2222,2222,2222,2222,2222,2222,2222,2222);
 var haredas =                   new Perso('Haredas',                    1,      'ciel',     1,1,1,1,1,1,1,1,1,1,1);
 var harisenbon =                new Perso('Harisenbon',                 15,     'hp',       15,15,15,15,15,15,15,15,15,15,15);
 var haritsuKendiyo =            new Perso('Haritsu_Kendiyo',            34,     'shinsekai', 34,34,34,34,34,34,34,34,34,34,34);
@@ -892,7 +900,7 @@ var lines =                     new Perso('Lines',                      6,      
 var lipDoughty =                new Perso('Lip_Doughty',                88,     'paradise', 88,88,88,88,88,88,88,88,88,88,88);
 var littleOzJr =                new Perso('Little_Oz_Jr',               389,    'bb',       389,389,389,389,389,389,389,389,389,389,389);
 //LO
-var loki =                      new Perso('Loki',                       120,    'shinsekai',120,120,120,120,120,120,120,120,120,120,120);
+var loki =                      new Perso('Loki',                       2600,   'elbaf',    120,120,120,120,120,120,120,120,120,120,120);
 var lombric =                   new Perso('Lombric',                    24,     'fox',      24,24,24,24,24,24,24,24,24,24,24);
 //Lu
 var luckyRoo =                  new Perso('Lucky_Roo',                  1050,   'sr',       1050,1050,1050,1050,1050,1050,1050,1050,1050,1050,1050);
@@ -926,6 +934,7 @@ var marumieta =                 new Perso('Marumieta',                  1,      
 var mashikaku =                 new Perso('Mashikaku',                  7,      'marine',   7,7,7,7,7,7,7,7,7,7,7);
 var masira =                    new Perso('Masira',                     32,     'paradise', 32,32,32,32,32,32,32,32,32,32,32);
 var maskedDeuce =               new Perso('Masked_Deuce',               344,    'bb',       344,344,344,344,344,344,344,344,344,344,344);
+var mato =                      new Perso('Mato',                       10,     'elbaf',    10,10,10,10,10,10,10,10,10,10,10);
 var maujii =                    new Perso('Maujii',                     2,      'shinsekai',2,2,2,2,2,2,2,2,2,2,2);
 var maxMarks =                  new Perso('Max_Marks',                  200,    'roger',    200,200,200,200,200,200,200,200,200,200,200);
 var maynard =                   new Perso('Maynard',                    249,    'marine',   249,249,249,249,249,249,249,249,249,249,249);
@@ -1174,6 +1183,7 @@ var rika =                      new Perso('Rika',                       1,      
 var rikuDoldoIII =              new Perso('Riku_Doldo_III',             68,     'shinsekai',68,68,68,68,68,68,68,68,68,68,68);
 var rindo =                     new Perso('Rindo',                      12,     'amazon',   12,12,12,12,12,12,12,12,12,12,12);
 var rint =                      new Perso('Rint',                       1,      'wb',       1,1,1,1,1,1,1,1,1,1,1);
+var ripley =                    new Perso('Ripley',                     111,    'elbaf',    111,111,1111,111,111,111,111,111,111,111,111);
 var ripper =                    new Perso('Ripper',                     11,     'marine',   11,11,11,11,11,11,11,11,11,11,11);
 var riskyBrothers =             new Perso('Risky_Brothers',             21,     'paradise', 21,21,21,21,21,21,21,21,21,21,21);
 //RO
@@ -1472,6 +1482,7 @@ var yamato =                    new Perso('Yamato',                     840,    
 var yamenahare =                new Perso('Yamenahare',                 1,      'paradise', 1,1,1,1,1,1,1,1,1,1,1);
 var yamon =                     new Perso('Yamon',                      200,    'roger',    200,200,200,200,200,200,200,200,200,200,200);
 var yarisugi =                  new Perso('Yarisugi',                   43,     'marine',   43,43,43,43,43,43,43,43,43,43,43);
+var yarle =                     new Perso('Yarle',                      1111,   )
 var yassop =                    new Perso('Yassop',                     1020,   'sr',       1020,1020,1020,1020,1020,1020,1020,1020,1020,1020,1020);
 var yatappe =                   new Perso('Yatappe',                    199,    'wano',     199,199,199,199,199,199,199,199,199,199,199);
 var yazaemon =                  new Perso('Yazaemon',                   12,     'k',        12,12,12,12,12,12,12,12,12,12,12);
@@ -1481,6 +1492,7 @@ var yomo =                      new Perso('Yomo',                       102,    
 var yonka =                     new Perso('Yonka',                      0.2,    'hp',       0,0,0,0,0,0,0,0,0,0,0);
 var yonkaTwo =                  new Perso('Yonka_Two',                  0.2,    'hp',       0,0,0,0,0,0,0,0,0,0,0);
 var yorki =                     new Perso('Yorki',                      211,    'wb',       211,0,0,0,0,0,0,0,0,0,0);
+var yorle =                     new Perso('Yorle',                      1111,   'elbaf',    1111,1111,1111,1111,1111,1111,1111,1111,1111,1111,1111);
 var yosaku =                    new Perso('Yosaku',                     29,     'eb',       9,9,9,9,9,29,29,29,29,29,29);
 var yoshimoto =                 new Perso('Yoshimoto',                  1,      'paradise', 1,1,1,1,1,1,1,1,1,1,1);
 var yotsubane =                 new Perso('Yotsubane',                  10,     'ciel',     10,10,10,10,10,10,10,10,10,10,10);
@@ -1554,12 +1566,11 @@ var rocksCrew =         new Crew('Équipage des Rocks', [rocksDXebec, edwardNewg
 
 var revoCrew =          new Crew('Armée Révolutionnaire', [monkeyDDragon, sabo, emporioIvankov, beloBetty, karasu, morley, lindbergh, inazuma, ahiru, koala, bunnyJoe, terryGilteo, jiron, forcesRevo], 'r');
 
-var gmCrew =            new Crew('Gouvernement mondial', [Im, stEthanbaronVNusjuro, stJaygarciaSaturn, stMarcusMars, stShepherdJuPeter, stTopmanWalcury, figarlandGarling, sakazukiAkainu, borsalinoKizaru, isshoFujitora, ryokugyu, hotokeSengoku, monkeyDGarp, tsuru, momonga, maynard, komir, doberMan, smoker, strawberry, yamakaji, lacroix, onigumo, johnGiant, ronse, bastille, dalmatien, cancer, mozambia, stainless, draw, moumousagi, tokkikake, nazuKetagari, haguarDSauro, catacombo, kadar, sicily, akehende, hina, brandnew, yarisugi, daigin, puddingPudding,
-                         koby, tBone, verygood, shu, sharinguru, nezumi, tashigi, kibin, gorilla, bluegrass, ratel, kuroumaTensei, morgan, hermep, donQuichotteRossinante, fullbody, jango, sentomaru, bogard, boomba, bakezo, andre, candre, glove, jero, koda, kyuji, lines, makko, mashikaku, pike, ripper, rokkaku, shine, stalker, forcesMarines, magellan, hannyabal, domino, forcesImpelDown, basilisk, minochihuahua, minokoala, minorhinoceros, minotaurus, minozebra, sadi, sukoshibaKanishitoru, 
-                         ukkari, forcesPacifista, zotto, doll, hibari, princeGruss, sBear, sHawk, sShark, sSnake], 'gm');
+var gmCrew =            new Crew('Gouvernement mondial', [Im, stEthanbaronVNusjuro, stJaygarciaSaturn, stMarcusMars, stShepherdJuPeter, stTopmanWalcury, figarlandGarling, figarlandShamerock, gunko,
+                        sentomaru, sukoshibaKanishitoru, ukkari, forcesPacifista, sBear, sHawk, sShark, sSnake], 'gm');
 
 var marineCrew =        new Crew('Marine',  [sakazukiAkainu, borsalinoKizaru, isshoFujitora, ryokugyu, hotokeSengoku, monkeyDGarp, tsuru, momonga, maynard, komir, doberMan, smoker, strawberry, yamakaji, lacroix, onigumo, johnGiant, ronse, bastille, dalmatien, cancer, mozambia, stainless, draw, moumousagi, tokkikake, nazuKetagari, haguarDSauro, catacombo, kadar, sicily, akehende, hina, brandnew, yarisugi, daigin, puddingPudding,
-                         koby, tBone, verygood, shu, sharinguru, nezumi, tashigi, kibin, gorilla, bluegrass, ratel, kuroumaTensei, morgan, hermep, donQuichotteRossinante, fullbody, jango, sentomaru, bogard, boomba, bakezo, andre, candre, glove, jero, koda, kyuji, lines, makko, 
+                         koby, tBone, verygood, shu, sharinguru, nezumi, tashigi, kibin, gorilla, bluegrass, ratel, kuroumaTensei, morgan, hermep, fullbody, jango, bogard, boomba, bakezo, andre, candre, glove, jero, koda, kyuji, lines, makko, 
                          mashikaku, pike, ripper, rokkaku, shine, stalker, zotto, doll, hibari, princeGruss, forcesMarines], 'marine');
 
 var corsaireCrew =      new Crew('7 Grands Corsaires', [draculeMihawk, donQuichotteDoflamingo, edwardWeeble, boaHancock, baggy, bartholomewKuma, geckoMoria], 'corsaire');
