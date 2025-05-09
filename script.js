@@ -648,7 +648,7 @@ var grabar =                    new Perso('Grabar',                     1,      
 var gram =                      new Perso('Gram',                       1,      'wb',       1,1,1,1,1,1,1,1,1,1,1);
 var greatMichael =              new Perso('Great_Michael',              97,     'bb',       97,97,97,97,97,97,97,97,97,97,97);
 //GU
-var gunko =                     new Perso('Gunko',                      1902,   'gm',       1902,1902,1902,1902,1902,1902,1902,1902,1902,1902,1902);
+var gunko =                     new Perso('Gunko',                      1602,   'gm',       1602,1602,1602,1602,1602,1602,1602,1602,1602,1602,1602);
 //GY
 var gyaro =                     new Perso('Gyaro',                      9,      'hp',       9,9,9,9,9,9,9,9,9,9,9);
 var gyoro =                     new Perso('Gyoro',                      1,      'moria',    1,1,1,1,1,1,1,1,1,1,1);
@@ -1197,6 +1197,7 @@ var rody =                      new Perso('Rody',                       100,    
 var roji =                      new Perso('Roji',                       1,      'wb',       1,1,1,1,1,1,1,1,1,1,1);
 var rokkaku =                   new Perso('Rokkaku',                    6,      'marine',   6,6,6,6,6,6,6,6,6,6,6);
 var rollingLogan =              new Perso('Rolling_Logan',              78,     'shinsekai',78,78,78,78,78,78,78,78,78,78,78);
+var ronja =                     new Perso('Ronja',                      1,      'elbaf',    1,1,1,1,1,1,1,1,1,1,1);
 var ronse =                     new Perso('Ronse',                      244,    'marine',   244,244,244,244,244,244,244,244,244,244,244);
 var roronoaArashi =             new Perso('Roronoa_Arashi',             40,     'eb',       40,40,40,40,40,40,40,40,40,40,40);
 var roronoaPinzoro =            new Perso('Roronoa_Pinzoro',            40,     'eb',       40,40,40,40,40,40,40,40,40,40,40);
@@ -1337,11 +1338,13 @@ var stCharlos =                 new Perso('Saint-Charlos',              1,      
 var stEthanbaronVNusjuro =      new Perso('Saint_Ethanbaron_V._Nusjuro',3003,   'gm',       3003,3003,3003,3003,3003,3003,3003,3003,3003,3003,3003);
 var stJalmack =                 new Perso('Saint-Jalmack',              1,      'gm',       1,1,1,1,1,1,1,1,1,1,1);
 var stJaygarciaSaturn =         new Perso('Saint_Jaygarcia_Saturn',     3003,   'gm',       3003,3003,3003,3003,3003,3003,3003,3003,3003,3003,3003);
+var stKilingham =               new Perso('Saint_Kilingham',            1666,   'gm',       1666,1666,1666,1666,1666,1666,1666,1666,1666,1666,1666);
 var stMarcusMars =              new Perso('Saint_Marcus_Mars',          3003,   'gm',       3003,3003,3003,3003,3003,3003,3003,3003,3003,3003,3003);
 var stPluming =                 new Perso('Saint-Pluming',              1,      'gm',       1,1,1,1,1,1,1,1,1,1,1);
 var stRosward =                 new Perso('Saint-Rosward',              1,      'gm',       1,1,1,1,1,1,1,1,1,1,1);
 var stSharlia =                 new Perso('Sainte-Sharlia',             1,      'gm',       1,1,1,1,1,1,1,1,1,1,1);
 var stShepherdJuPeter =         new Perso('Saint_Shepherd_Ju_Peter',    3003,   'gm',       3003,3003,3003,3003,3003,3003,3003,3003,3003,3003,3003);
+var stSummers =                 new Perso('Saint_Summers',              1444,   'gm',       1444,1444,1444,1444,1444,1444,1444,1444,1444,1444,1444);
 var stTopmanWalcury =           new Perso('Saint_Topman_Walcury',       3003,   'gm',       3003,3003,3003,3003,3003,3003,3003,3003,3003,3003,3003);
 //SU
 var sugar =                     new Perso('Sugar',                      2,      'dqd',      2,2,2,2,2,2,2,2,2,2,2);
@@ -1567,7 +1570,7 @@ var rocksCrew =         new Crew('Équipage des Rocks', [rocksDXebec, edwardNewg
 var revoCrew =          new Crew('Armée Révolutionnaire', [monkeyDDragon, sabo, emporioIvankov, beloBetty, karasu, morley, lindbergh, inazuma, ahiru, koala, bunnyJoe, terryGilteo, jiron, forcesRevo], 'r');
 
 var gmCrew =            new Crew('Gouvernement mondial', [Im, stEthanbaronVNusjuro, stJaygarciaSaturn, stMarcusMars, stShepherdJuPeter, stTopmanWalcury, figarlandGarling, figarlandShamerock, gunko,
-                        sentomaru, sukoshibaKanishitoru, ukkari, forcesPacifista, sBear, sHawk, sShark, sSnake], 'gm');
+                        stSummers, stKilingham, sentomaru, sukoshibaKanishitoru, ukkari, forcesPacifista, sBear, sHawk, sShark, sSnake], 'gm');
 
 var marineCrew =        new Crew('Marine',  [sakazukiAkainu, borsalinoKizaru, isshoFujitora, ryokugyu, hotokeSengoku, monkeyDGarp, tsuru, momonga, maynard, komir, doberMan, smoker, strawberry, yamakaji, lacroix, onigumo, johnGiant, ronse, bastille, dalmatien, cancer, mozambia, stainless, draw, moumousagi, tokkikake, nazuKetagari, haguarDSauro, catacombo, kadar, sicily, akehende, hina, brandnew, yarisugi, daigin, puddingPudding,
                          koby, tBone, verygood, shu, sharinguru, nezumi, tashigi, kibin, gorilla, bluegrass, ratel, kuroumaTensei, morgan, hermep, fullbody, jango, bogard, boomba, bakezo, andre, candre, glove, jero, koda, kyuji, lines, makko, 
